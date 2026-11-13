@@ -1,0 +1,15 @@
+{
+  "name": "afya-hmis",
+  "version": "1.0.0",
+  "description": "Lean hospital information management system for Ghanaian hospitals (OPD, IPD, notes, ICD-10/G-DRG, labs, documents, theatre).",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "demo": "node --disable-warning=ExperimentalWarning scripts/demo-data.js",
+    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "license": "MIT"
+}
